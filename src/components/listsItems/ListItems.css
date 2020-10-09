@@ -1,0 +1,29 @@
+*{
+    margin-left: 0px;
+}
+
+body {
+    margin-left: 30px;
+}
+
+.list-items-table {
+    margin-top: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.list-items-tr {
+    background: rgb(84, 173, 233);
+}
+.list-items-tr td{
+    border: 1px solid black;
+    padding: 2px 20px;
+}
+
+.button-icon-plus {
+    margin: 0;
+}
+
+.button-plus {
+    margin-left: 10px;
+}
