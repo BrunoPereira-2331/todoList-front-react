@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
-import List from './components/list/TodoList.jsx'
+import TodoList from './components/TodoList'
 
 function App() {
     return (
-        <>
-            <List></List>
-        </>
+        <div>
+            <TodoList></TodoList>
+        </div>
     );
 }
 

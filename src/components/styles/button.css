@@ -1,0 +1,40 @@
+.default-button {
+    background-color: #fcfcfc;
+    border: 1px solid black;
+    transition: 0.6s;
+    /* padding: 5px; */
+    margin: 2px 0;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.default-button:hover {
+    cursor: pointer;
+}
+
+.update-task-button {}
+
+.update-task-button:hover {
+    background-color: rgba(51, 212, 59, 0.849);
+}
+
+.reset-task-button {}
+
+.reset-task-button:hover {
+    background-color: #ebff00;
+}
+
+.delete-task-button {}
+
+.delete-task-button:hover {
+    background-color: red;
+}
+
+.add-task-button {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.add-task-button:hover {
+    background-color: rgba(111, 230, 117, 0.849);
+}

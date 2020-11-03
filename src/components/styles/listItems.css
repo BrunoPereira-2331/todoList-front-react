@@ -1,0 +1,77 @@
+* {
+    margin-left: 0px;
+}
+
+body {
+    margin-left: 30px;
+}
+
+.table-tasks .thead-th {
+    /* background-color: rgba(14, 189, 224, 0.411); */
+    background-color: rgb(30, 206, 241);
+}
+
+.table-tasks {
+    margin-top: 20px;
+    border: 2px solid black;
+    border-right: 0px solid #fff;
+    border-collapse: collapse;
+}
+
+.table-tasks th {
+    border: 1px solid black;
+}
+
+.table-tasks .table-th-description {
+    margin-right: 50px;
+    width: 20vw;
+}
+
+.table-tasks .table-th-status {
+    border-right: 2px solid;
+}
+
+.table-tasks .table-th-buttons {
+    border: 2px solid transparent;
+    border-bottom: 2px solid black;
+}
+
+.table-tasks-tr {}
+
+.table-tasks-tr td {
+    border: 1px solid black;
+    padding: 2px 20px;
+    text-align: center;
+}
+
+.table-tasks-tr .table-tasks-status {
+    border-right: 2px solid black;
+    min-width: 100px;
+}
+
+.finished-task {
+    background-color: rgba(51, 212, 59, 0.849);
+}
+
+.not-finished-task {
+    background-color: #e40e0ec0;
+}
+
+.table-tasks-tr .table-buttons-td {
+    padding: 0 2px;
+    background-color: rgb(30, 206, 241);
+    border: none;
+}
+
+.table-tasks-tr .tbody-delete-button-td {
+    border-right: 2px solid black;
+}
+
+
+.button-icon-plus {
+    margin: 0;
+}
+
+.button-plus {
+    margin-left: 10px;
+}
