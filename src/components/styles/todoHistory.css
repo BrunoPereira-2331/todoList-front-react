@@ -1,47 +1,51 @@
-.div-todo-list {
+.header-empty {
+    margin-top: 30px;
+}
+
+.div-todo-history {
     display: flex;
     justify-content: center;
 }
 
-.table-tasks .thead-th {
+.table-history .history-thead-th {
     background-color: rgb(30, 206, 241);
 }
 
-.table-tasks {
+.table-history {
     margin-top: 20px;
     border: 2px solid black;
     border-right: 0px solid #fff;
     border-collapse: collapse;
 }
 
-.table-tasks th {
+.table-history th {
     border: 1px solid black;
     font-size: 1.4em;
 }
 
-.table-tasks .table-th-description {
+.table-history .table-th-description {
     padding: 10px 15vw;
     width: 30vw;
 }
 
-.table-tasks .table-th-status {
+.table-history .table-th-status {
     border-right: 2px solid;
 }
 
-.table-tasks .table-th-buttons {
+.table-history .history-table-th-buttons {
     border: 2px solid transparent;
     border-bottom: 2px solid black;
 }
 
-.table-tasks-tr {}
+.table-history-tr {}
 
-.table-tasks-tr td {
+.table-history-tr td {
     border: 1px solid black;
     padding: 2px 20px;
     text-align: center;
 }
 
-.table-tasks-tr .table-tasks-description {
+.table-history-tr .table-history-description {
     padding: 10px 0;
     word-wrap: break-word;
     min-width: 200px;
@@ -51,7 +55,7 @@
     background-color: rgb(196, 237, 252);
 }
 
-.table-tasks-tr .table-tasks-status {
+.table-history-tr .table-history-status {
     font-size: 1.3em;
     border-right: 2px solid black;
     min-width: 100px;
@@ -65,12 +69,12 @@
     background-color: #e40e0ec0;
 }
 
-.table-tasks-tr .table-buttons-td {
+.table-history-tr .table-buttons-td {
     padding: 0 2px;
     background-color: rgb(30, 206, 241);
     border: none;
 }
 
-.table-tasks-tr .tbody-delete-button-td {
+.table-history-tr .tbody-delete-button-td {
     border-right: 2px solid black;
 }

@@ -1,6 +1,11 @@
 body {
-    background: rgb(168, 213, 230);
-    background: linear-gradient(90deg, rgba(168, 213, 230, 1) 0%, rgba(133, 196, 217, 1) 65%, rgba(127, 205, 227, 1) 100%);
+    /* background: rgb(168, 213, 230);
+    background: linear-gradient(90deg, rgba(168, 213, 230, 1) 0%, rgba(133, 196, 217, 1) 65%, rgba(127, 205, 227, 1) 100%); */
+    display: flex;
+    flex-direction: column;
+
 }
 
-.container {}
+.div-menu {
+    /* margin: 0 auto; */
+}

@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import './styles/listItemInput.css'
+import './styles/todoInput.css'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
 import api from '../services/api.js'
 import { Button } from './Button'
 
-const ListItemInput = (props) => {
+const TodoInput = (props) => {
 
     const { updateListItems } = props
 
@@ -14,17 +14,14 @@ const ListItemInput = (props) => {
         setInputValue(event.target.value)
     }
 
-    const addListItem = (task) => {
-        const data = {
-            description: task,
-            finished: false
-        }
+    const addListItem = (description) => {
+        const data = { description, finished: false }
         api.post('tasks', data).then(resp => updateListItems())
         setInputValue('')
     }
 
     return (
-        <div className="div-container">
+        <div className="div-input">
             <input className="list-item-input" type='text'
                 value={inputValue}
                 onChange={handleInputItem}
@@ -35,4 +32,4 @@ const ListItemInput = (props) => {
     )
 }
 
-export default ListItemInput
+export default TodoInput

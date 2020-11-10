@@ -1,0 +1,32 @@
+.menu-nav {}
+
+.menu-nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    background-color: rgb(59, 59, 59);
+
+}
+
+.menu-nav-ul li {
+    font-size: 2rem;
+    list-style: none;
+    padding: 0;
+    transition: .5s;
+}
+
+.menu-nav-ul li a {
+    padding: 5px 25px;
+    margin: 0 5px;
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+
+}
+
+.menu-nav-ul li a:hover {
+    background-color: rgb(39, 39, 39);
+
+}
