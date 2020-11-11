@@ -20,11 +20,9 @@ const Todo = () => {
 
     return (
         <div>
-            {/* <div className="div-todo-input"> */}
-                <TodoInput
-                    updateListItems={updateListItems}
-                ></TodoInput>
-            {/* </div> */}
+            <TodoInput
+                updateListItems={updateListItems}
+            ></TodoInput>
             <TodoList
                 setListItems={setListItems}
                 updateListItems={updateListItems}

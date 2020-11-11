@@ -4,7 +4,6 @@ import './styles/menu.css'
 const Menu = props => {
     return (
         <div className="div">
-
             <nav className="menu-nav">
                 <ul className="menu-nav-ul">
                     <li>
