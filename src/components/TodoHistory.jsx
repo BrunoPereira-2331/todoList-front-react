@@ -63,13 +63,15 @@ const History = props => {
                     <td className="table-buttons-td">
                         <Button icon={faRedo}
                             class={'default-button reset-task-button'}
-                            handleButtonClick={restoreTask} task={task}>
+                            handleButtonClick={restoreTask} 
+                            task={task} title="Restore Task">
                         </Button>
                     </td>
                     <td className="table-buttons-td tbody-delete-button-td">
                         <Button icon={faTrashAlt}
                             class={'default-button delete-task-button'}
-                            handleButtonClick={deleteTask} task={task}>
+                            handleButtonClick={deleteTask} 
+                            task={task} title="Delete Task">
                         </Button>
                     </td>
                 </tr>

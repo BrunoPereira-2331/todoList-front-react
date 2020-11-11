@@ -76,19 +76,22 @@ const TodoList = (props) => {
                     <td className="table-buttons-td">
                         <Button icon={faCheck}
                             class={'default-button update-task-button'}
-                            handleButtonClick={markAsDone} task={task}>
+                            handleButtonClick={markAsDone} 
+                            task={task} title="Mark Task as done">
                         </Button>
                     </td>
                     <td className="table-buttons-td">
                         <Button icon={faRedo}
                             class={'default-button reset-task-button'}
-                            handleButtonClick={markAsPending} task={task}>
+                            handleButtonClick={markAsPending} 
+                            task={task} title="Reset Task status">
                         </Button>
                     </td>
                     <td className="table-buttons-td tbody-delete-button-td">
                         <Button icon={faTrashAlt}
                             class={'default-button delete-task-button'}
-                            handleButtonClick={deleteTask} task={task}>
+                            handleButtonClick={deleteTask} 
+                            task={task} title="Delete Task">
                         </Button>
                     </td>
                 </tr>

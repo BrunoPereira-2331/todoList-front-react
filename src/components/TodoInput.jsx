@@ -27,7 +27,10 @@ const TodoInput = (props) => {
                 onChange={handleInputItem}
                 placeholder='Type a new task!'
             />
-            <Button class={'default-button add-task-button'} icon={faPlus} handleButtonClick={addListItem} task={inputValue}></Button>
+            <Button class={'default-button add-task-button'}
+                icon={faPlus} handleButtonClick={addListItem}
+                task={inputValue} title="Add Task"
+            />
         </div>
     )
 }
