@@ -3,4 +3,6 @@ This Todo list was created using js & react in front-end and spring boot & java 
 
 this app is very simple, there are a input and a submit button so you can add a new task to the list, the list of tasks and the history of deleted tasks. The list of tasks have 3 buttons to make changes in tasks like check, reset status and delete. The history have 2 buttons, one of them to delete a task and the other to restore a task.
 
-![Todo list example gif](https://media.giphy.com/media/sY7KJXOm3ByeMi9SLa/giphy.gif)
+![Todo list example gif](https://media.giphy.com/media/UpV8oV9MDxz9phrARP/giphy.gif)
+
+![Todo list history example gif](https://media.giphy.com/media/WNQDXLNyaxUqYI81ts/giphy.gif)
