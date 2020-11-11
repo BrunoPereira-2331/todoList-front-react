@@ -6,8 +6,9 @@
 }
 
 .list-item-input {
-    width: 30vw;
+    font-size: 1.3em;
+    width: 35vw;
     height: 20px;
-    padding: 0 5px;
-    margin-top: 6px;
+    padding: 5px 5px;
+    margin-top: 2px;
 }
