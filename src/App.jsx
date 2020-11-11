@@ -7,10 +7,8 @@ import Menu from './components/Menu'
 
 function App() {
     return (
-        <div className="div">
-            <div className="div-menu">
-                <Menu />
-            </div>
+        <div>
+            <Menu />
             <Router>
                 <Switch>
                     <Route path="/todoList">

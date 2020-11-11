@@ -23,13 +23,6 @@ const History = props => {
     const restoreTask = (task) => {
         api.post('tasks', task).then(resp => console.log(resp.data))
         api.delete(`history/${task.id}`).then(resp => updateListItems())
-        // api.post(`tasks/${task.id}`, task)
-        //     .then(resp => {
-        //         const updatedTask = resp.data
-        //         const updatedListItems = listItems.filter(elem => elem.id !== updatedTask.id)
-        //         updatedListItems.push(updatedTask)
-        //         setListItems(updatedListItems)
-        //     })
     }
 
     const deleteTask = (task) => {
