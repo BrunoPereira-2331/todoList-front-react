@@ -1,14 +1,16 @@
 import React from 'react';
-import './app.css';
+import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
 import TodoHistory from './components/TodoHistory'
 import Todo from './components/Todo'
 import Menu from './components/Menu'
+import MaterialTableTest from './components/MaterialTests'
 
 function App() {
     return (
         <div>
-            <Menu />
+            <MaterialTableTest />
+            {/* <Menu />
             <Router>
                 <Switch>
                     <Route path="/todoList">
@@ -19,7 +21,7 @@ function App() {
                     </Route>
                     <Redirect from="" to="/todoList"></Redirect>
                 </Switch>
-            </Router>
+            </Router> */}
         </div>
     )
 }
